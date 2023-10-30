@@ -1,0 +1,30 @@
+.links{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#prof,
+#home {
+  background: #43434e;
+}
+
+.linkBoxChild {
+  display: inline-flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.personal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+
+.one {
+  position: fixed;
+  top: 0;
+  right: 5%;
+  width: 200px;
+}

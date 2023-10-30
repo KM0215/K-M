@@ -1,0 +1,30 @@
+.board {
+  text-align: center;
+}
+   
+.chessboard-row{
+  display: flex;
+}
+
+.board .square {
+   min-width: 50px;
+   height: 50px;
+   text-align: center;
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .light {
+   background-color: #f0d9b5;
+ }
+ 
+ .dark {
+   background-color: #b58863;
+ }
+ .text {
+   color: #000;
+   font-size: 24px;
+ }
+ 

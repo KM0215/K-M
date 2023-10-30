@@ -31,10 +31,10 @@ function createChessboard() {
     }
   }
 
-//   for (let row = 0; row < arrayOfNumbers.length; index++) {
-//     col = 11
+  // for (let row = 0; row < arrayOfNumbers.length; index++) {
+  //   col = 11
     
-//   }
+  // }
 }
 
 function setupChessPieces() {
@@ -65,7 +65,7 @@ document.getElementById("sing-up").addEventListener("submit", function (e) {
   let pas = document.getElementById("pass").value;
   let pas1 = document.getElementById("pass1").value;
 
- if(pas ==pas1){
+ if(pas == pas1){
    alert("Ok your done")
  }else{
   alert("You shoud confirm your password")
