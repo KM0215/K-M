@@ -1,73 +1,70 @@
 .board {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(10, 50px);
-    grid-template-rows: repeat(10, 50px);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
 }
-    
-  
-  .board .square {
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .light {
-    background-color: #f0d9b5;
-  }
-  
-  .dark {
-    background-color: #b58863;
-  }
-  .text {
-    color: #000;
-    font-size: 24px;
-  }
-  body {
-    font-family: Arial, sans-serif;
+
+.board .square {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  background-color: #f0d9b5;
+}
+
+.dark {
+  background-color: #b58863;
+}
+.text {
+  color: #000;
+  font-size: 24px;
+}
+body {
+  font-family: Arial, sans-serif;
 }
 
 .login-container {
-    max-width: 350px;
-    margin: auto;
-    text-align: center;
-    padding: 40px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #ffffff;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
-input { 
-    align-items: center;
-    width: 100%;
-    margin: 5px;
-    padding : 5px;
-    
+input {
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
 }
-
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #0074D9;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    
-    align-items: center;
-    margin: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+
+  align-items: center;
+  margin: 5px;
 }
 
 button:hover {
-    background-color: #0352a7;
+  background-color: #0352a7;
 }
 
 #error-message {
-    color: red;
+  color: red;
 }
 
 .singup-container {
@@ -79,22 +76,22 @@ button:hover {
   border-radius: 5px;
   color: rgb(255, 255, 255);
 }
-.links{
+.links {
   text-align: left;
   color: #ffffff;
   text-decoration: none;
 }
-#prof{
+#prof {
   background: #43434e;
-
 }
-#home{
+#home {
   background-color: #43434e;
 }
 
-.linkBoxChild{
- display: inline-block;
-padding-left: 10px;
-padding-right: 10px;
-text-align: center;
+.linkBoxChild {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
 }
+
